@@ -1,0 +1,21 @@
+.button {
+    display: inline;
+    box-sizing: border-box;
+    padding: 12px 40px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+.primary {
+    color: white;
+    background-color: rgb(72, 72, 251);
+}
+
+.primary:hover {
+    background-color: rgb(109, 109, 252);
+}
+

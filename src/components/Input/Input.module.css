@@ -1,0 +1,36 @@
+.inputWrapper {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.input {
+    padding: 10px 18px;
+    color:black;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 22px;
+    outline: none;
+}
+
+.error {
+    border: 1px solid rgb(255, 34, 34);
+}
+.errorMessage {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    color: rgb(255, 34, 34);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+@media (max-width: 575px) {
+    .errorMessage {
+        font-size: 12px;
+    }
+}
